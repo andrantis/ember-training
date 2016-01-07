@@ -1800,8 +1800,9 @@ export default Ember.Route.extend({
         });
     }
 });
+```
 
-Ember data does not work in for this use case since logging in is outside normal CRUD operations. However a regular Ember.Object works perfectly as a model, all we need is a username and password.
+Ember data doen't work in for this use case since logging in is outside normal CRUD operations. However a regular Ember.Object works perfectly as a model, all we need is a username and password.
 
 Also we are injecting our session service into our login route, we will use it momentarily.
 
